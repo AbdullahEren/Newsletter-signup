@@ -60,5 +60,3 @@ app.post("/",function(req,res){
 app.post("/failure.html",function(req,res){
   res.redirect("/")
 })
-var apiKey = "621a0e057124213fa5dfa1fa1e65cd19-us21";
-var listId = "42c49ccb07";
