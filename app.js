@@ -32,11 +32,11 @@ app.post("/",function(req,res){
       }
     ]
   };
-  const url = "https://us21.api.mailchimp.com/3.0/lists/42c49ccb07"
+  const url = "https://us21.api.mailchimp.com/3.0/lists/ LIST ID" //LIST ID in your mailchimp account.
 
   const options = {
     method:"POST",
-    auth:"AbdullahEren:621a0e057124213fa5dfa1fa1e65cd19-us21"
+    auth:"AbdullahEren:APIKEY" //APIKEY such as(621a0e057124213fa5dfa1fa1e65cd19-us21) in your mailchimp account.
   }
   const jsonData = JSON.stringify(data);
 
